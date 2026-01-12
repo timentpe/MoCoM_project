@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="ff_TSC_modified.net.xml"/>
+        <route-files value="ff_heterogeneous.rou.xml"/>
+        <additional-files value="outputs_base.add.xml"/>
+    </input>
+    <time><begin value="0"/><end value="3600"/></time>
+</configuration>
