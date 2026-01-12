@@ -1,0 +1,8 @@
+# Data Directory
+
+This directory is for storing data files used by the project.
+
+## Note
+
+Large data files are excluded from version control via .gitignore.
+Add any necessary data files here during development.
