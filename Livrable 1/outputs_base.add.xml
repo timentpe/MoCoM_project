@@ -1,0 +1,3 @@
+<additional>
+    <edgeData id="stats_base" freq="60" file="lane_output_base.xml" withMaxJam="true"/>
+</additional>
