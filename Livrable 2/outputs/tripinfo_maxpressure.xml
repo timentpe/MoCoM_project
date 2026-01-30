@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-01-20T16:20:20.832386+01:00 by Eclipse SUMO GUI 1.25.0
+<!-- generated on 2026-01-30T21:16:49.495560+01:00 by Eclipse SUMO GUI 1.25.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="ff.net.xml"/>
-        <route-files value="ff_heterogeneous.rou.xml"/>
+        <net-file value="SUMO_net/ff.net.xml"/>
+        <route-files value="SUMO_net/ff_heterogeneous.rou.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="tripinfo_maxpressure.xml"/>
+        <tripinfo-output value="outputs/tripinfo_maxpressure.xml"/>
+        <collision-output value="outputs/collisions_maxpressure.xml"/>
     </output>
 
     <time>
@@ -18,7 +19,7 @@
     </time>
 
     <traci_server>
-        <remote-port value="56532"/>
+        <remote-port value="58690"/>
     </traci_server>
 
 </sumoConfiguration>

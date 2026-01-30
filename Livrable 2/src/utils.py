@@ -193,3 +193,22 @@ def analyze_network_speed(filename='summary.xml'):
     plt.show()
 
 
+
+def collision_analysis(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+
+    collisions = []
+    for collision in root.findall('collision'):
+        time = float(collision.get('time'))
+        lane = collision.get('lane')
+        vehicles = collision.get('vehicles').split(',')
+        collisions.append({
+            'time': time,
+            'lane': lane,
+            'vehicles': vehicles
+        })
+
+    return collisions
+
+
